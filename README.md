@@ -104,7 +104,7 @@ The `.lottie` format (dotLottie) is a ZIP-based container format created by [Lot
 
 ## License
 
-MIT © [KodeKing](https://github.com/kodeking)
+MIT © [KodeKing](https://github.com/Koding-net)
 
 ---
 
@@ -112,9 +112,9 @@ MIT © [KodeKing](https://github.com/kodeking)
 
 | Package | Description |
 |---|---|
-| [@kodeking/lottie-to-svg](https://github.com/kodeking/lottie-to-svg) | Extract SVG frames from a Lottie animation |
-| [@kodeking/svg-to-lottie](https://github.com/kodeking/svg-to-lottie) | Wrap an SVG as a Lottie JSON animation |
-| [@kodeking/lottie-to-gif](https://github.com/kodeking/lottie-to-gif) | Render Lottie to animated GIF (Node.js) |
-| [@kodeking/lottie-to-mp4](https://github.com/kodeking/lottie-to-mp4) | Render Lottie to MP4 video (Node.js) |
+| [@kodeking/lottie-to-svg](https://github.com/Koding-net/lottie-to-svg) | Extract SVG frames from a Lottie animation |
+| [@kodeking/svg-to-lottie](https://github.com/Koding-net/svg-to-lottie) | Wrap an SVG as a Lottie JSON animation |
+| [@kodeking/lottie-to-gif](https://github.com/Koding-net/lottie-to-gif) | Render Lottie to animated GIF (Node.js) |
+| [@kodeking/lottie-to-mp4](https://github.com/Koding-net/lottie-to-mp4) | Render Lottie to MP4 video (Node.js) |
 
-See all tools at [github.com/kodeking/lottie-tools](https://github.com/kodeking/lottie-tools).
+See all tools at [github.com/Koding-net/lottie-tools](https://github.com/Koding-net/lottie-tools).
