@@ -1,5 +1,5 @@
 {
-  "name": "@kodeking/lottie-to-dotlottie",
+  "name": "@koding-net/lottie-to-dotlottie",
   "version": "1.0.0",
   "description": "Convert Lottie JSON to .lottie binary format in the browser — no server required",
   "main": "dist/index.cjs",
@@ -24,7 +24,7 @@
     "animation",
     "converter",
     "lottiefiles",
-    "kodeking"
+    "koding-net"
   ],
   "author": "KodeKing <hello@kodeking.dev>",
   "license": "MIT",

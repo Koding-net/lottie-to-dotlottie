@@ -1,5 +1,5 @@
 /**
- * @kodeking/lottie-to-dotlottie
+ * @koding-net/lottie-to-dotlottie
  *
  * Convert a Lottie JSON animation to the .lottie binary format.
  * Runs entirely in the browser — no server required.
@@ -29,7 +29,7 @@ export interface ConvertOptions {
  *
  * @example
  * ```ts
- * import { convertToDotLottie, downloadDotLottie } from '@kodeking/lottie-to-dotlottie';
+ * import { convertToDotLottie, downloadDotLottie } from '@koding-net/lottie-to-dotlottie';
  *
  * const response = await fetch('/animation.json');
  * const lottieJson = await response.json();

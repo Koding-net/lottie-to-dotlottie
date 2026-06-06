@@ -1,9 +1,9 @@
-# @kodeking/lottie-to-dotlottie
+# @koding-net/lottie-to-dotlottie
 
 > Convert Lottie JSON to `.lottie` binary format — **browser only, no server required**
 
-[![npm](https://img.shields.io/npm/v/@kodeking/lottie-to-dotlottie)](https://www.npmjs.com/package/@kodeking/lottie-to-dotlottie)
-[![license](https://img.shields.io/npm/l/@kodeking/lottie-to-dotlottie)](LICENSE)
+[![npm](https://img.shields.io/npm/v/@koding-net/lottie-to-dotlottie)](https://www.npmjs.com/package/@koding-net/lottie-to-dotlottie)
+[![license](https://img.shields.io/npm/l/@koding-net/lottie-to-dotlottie)](LICENSE)
 
 Convert `.json` Lottie animations to the modern `.lottie` container format entirely in the browser. `.lottie` files are typically **2–10× smaller** than equivalent JSON and are natively supported by all LottieFiles players. Try it live at [iconking.net/tools/lottie-json-to-dotlottie](https://iconking.net/tools/lottie-json-to-dotlottie).
 
@@ -12,9 +12,9 @@ Convert `.json` Lottie animations to the modern `.lottie` container format entir
 ## Install
 
 ```bash
-npm install @kodeking/lottie-to-dotlottie @dotlottie/dotlottie-js
+npm install @koding-net/lottie-to-dotlottie @dotlottie/dotlottie-js
 # or
-pnpm add @kodeking/lottie-to-dotlottie @dotlottie/dotlottie-js
+pnpm add @koding-net/lottie-to-dotlottie @dotlottie/dotlottie-js
 ```
 
 `@dotlottie/dotlottie-js` is a peer dependency — install it alongside this package.
@@ -26,7 +26,7 @@ pnpm add @kodeking/lottie-to-dotlottie @dotlottie/dotlottie-js
 ### Basic conversion and download
 
 ```ts
-import { convertToDotLottie, downloadDotLottie } from '@kodeking/lottie-to-dotlottie';
+import { convertToDotLottie, downloadDotLottie } from '@koding-net/lottie-to-dotlottie';
 
 const lottieJson = await fetch('/animation.json').then(r => r.json());
 
@@ -37,7 +37,7 @@ downloadDotLottie(binary, 'my-animation.lottie');
 ### From a file input
 
 ```ts
-import { readLottieFile, convertToDotLottie, downloadDotLottie } from '@kodeking/lottie-to-dotlottie';
+import { readLottieFile, convertToDotLottie, downloadDotLottie } from '@koding-net/lottie-to-dotlottie';
 
 const input = document.querySelector<HTMLInputElement>('input[type="file"]')!;
 input.addEventListener('change', async () => {
@@ -112,9 +112,9 @@ MIT © [KodeKing](https://github.com/Koding-net)
 
 | Package | Description |
 |---|---|
-| [@kodeking/lottie-to-svg](https://github.com/Koding-net/lottie-to-svg) | Extract SVG frames from a Lottie animation |
-| [@kodeking/svg-to-lottie](https://github.com/Koding-net/svg-to-lottie) | Wrap an SVG as a Lottie JSON animation |
-| [@kodeking/lottie-to-gif](https://github.com/Koding-net/lottie-to-gif) | Render Lottie to animated GIF (Node.js) |
-| [@kodeking/lottie-to-mp4](https://github.com/Koding-net/lottie-to-mp4) | Render Lottie to MP4 video (Node.js) |
+| [@koding-net/lottie-to-svg](https://github.com/Koding-net/lottie-to-svg) | Extract SVG frames from a Lottie animation |
+| [@koding-net/svg-to-lottie](https://github.com/Koding-net/svg-to-lottie) | Wrap an SVG as a Lottie JSON animation |
+| [@koding-net/lottie-to-gif](https://github.com/Koding-net/lottie-to-gif) | Render Lottie to animated GIF (Node.js) |
+| [@koding-net/lottie-to-mp4](https://github.com/Koding-net/lottie-to-mp4) | Render Lottie to MP4 video (Node.js) |
 
 See all tools at [github.com/Koding-net/lottie-tools](https://github.com/Koding-net/lottie-tools).
